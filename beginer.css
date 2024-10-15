@@ -1,0 +1,546 @@
+* {
+	font-family: arial;
+	padding: 0px;
+	margin: 0px;
+}
+.body {
+	background-color: #b4cdec;
+}
+.nom{
+	width: 100%;
+	height: 47px;
+	background-color: #b4cdec;
+	display: none;
+}
+#container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+}
+
+#navMenu {
+	background-color: #096FBA;
+	text-align: center;
+	width: 100%;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	height: 47px;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+}
+
+ul.dadMenu > li {
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+ul.dadMenu > li > a {
+	text-decoration: none;
+	color: white;
+	padding: 0px 15px 0px 15px;
+	line-height: 47px;
+	display: block;	
+}
+ul.dadMenu >li > a:hover {
+	background-color: #4c91cd;
+}
+
+#navMenu .barBtn button{
+	border: none;
+	background-color: #096FBA;
+	float: right;
+	
+}
+
+#navMenu .barBtn img{
+	float: right;
+	padding: 0px 21px;
+	height: 40px;
+}
+article {
+	width: 69%;
+	float: right;
+	font-family: arial;
+	margin-right: 18px;
+}
+
+
+.formSignIn {
+	border: 2px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 360px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+.news {
+	border: 3px solid #d7d7d7;
+	margin-top: 10px;
+	width: 100%;
+}
+.news1 {
+	float: left;
+	width: 49%;
+}
+.news1 img {
+	width: 100%;
+}
+.news2 {
+	float: right;
+	width: 50%;
+}
+.news2 button {
+	width: 100%;
+	background-color: #a90001;
+	color: white;
+	border: none;
+	border-radius: 5px 5px 0px 0px;
+}
+.news2 a {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+.sonNews2 {
+	list-style-type: square;
+	color: orange;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.sonNews2 a {
+	color: #008fcc;
+	font-size: 20px;
+}
+.sonNews2 a:hover {
+	color: black;
+}
+.tintuc {
+	width: 50%;
+	margin-right: 1%;
+	float: left;
+}
+.tintuc button {
+	width: 100%;
+	border: none;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #008fcc;
+	height: 35px;
+	text-align: left;
+	padding-left: 15px;
+	margin-top: 10px;
+}
+.material-symbols-outlined{
+	color: #8dc63f;
+}
+.tintuc a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.tintuc img {
+	width: 150px;
+}
+.gioithieu {
+	width: 49%;
+	float: right;
+	margin-bottom: 10px;
+}
+.gioithieu img {
+	width: 150px;
+	margin-bottom: 10px;
+}
+.gioithieu button {
+	width: 100%;
+	border: none;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #008fcc;
+	height: 35px;
+	text-align: left;
+	padding-left: 15px;
+	margin-top: 10px;
+	
+}
+.gioithieu a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.ii a {
+	color:blue;
+}
+.ii a:hover {
+	color: black;
+}
+aside {
+	width: 25%;
+	float: left;
+	font-size: 27px;
+	margin-left: 1%;
+	font-family: arial;
+	margin-right: 1%;
+	font-size: 15px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+ul.momMenu > li {
+	list-style: none;
+	display: block;
+	height: 36px;
+	background-color: #008fcc;
+	text-align: left;
+	border-bottom: 1px solid white;
+}
+ul.momMenu > li > a {
+	text-decoration: none;
+	color: white;
+	padding: 0px 15px 0px 15px;
+	line-height: 36px;
+	display: block;	
+	font-size: 18px;
+}
+
+.box2 button {
+	width: 100%;
+	font-size: 28px;
+	line-height: 47px;
+	background-color: #0a6fbb;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	border-radius: 5px 5px 0px 0px;
+}
+ul.sonMenu img{
+	width: 100px;
+}
+ul.sonMenu > li {
+	list-style: none;
+	display: block;
+	height: 83px;
+	border-bottom: 1px solid gray;
+}
+ul.sonMenu > li > a {
+	text-decoration: none;
+	padding: 15px 0px 0px 0px;
+	display: block;
+	color: #008fcc;	
+}
+ul.sonMenu > li > a:hover {
+	color: black;	
+}
+ul.daughterMenu > li {
+	list-style: none;
+	display: block;
+	height: 30px;
+	border-bottom: 1px solid gray;
+}
+ul.daughterMenu > li > a {
+	text-decoration: none;
+	padding: 15px 0px 0px 0px;
+	line-height: 1px;
+	display: block;
+	color: black;	
+}
+ul.daughterMenu > li > a:hover {
+	color: blue;	
+}
+.search {
+	float: right;
+}
+.search input{
+	width:20%;height: 34px; border-radius: 5px; border:1px solid gray;padding-left: 10px;
+}
+.search1 {
+	clear: both;
+	background-color: #f5f5f5;
+	padding-left: 10px;
+	width: 100%;
+	height: 34px; 
+	border-radius: 5px;
+	line-height: 34px;
+	margin-top: 45px;
+	text-align: left;
+	color: #777777;
+}
+footer {
+	clear: both;
+	width: 100%;
+	
+	background-color: #bad1ed;
+	border-top: 5px solid #0b518c;
+	font-family: arial;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+}
+
+.footer {
+	margin-top: 15px;
+}
+ul.conMenu img{
+	width: 250px;
+	margin-right: 30px;
+}
+ul.conMenu > li {
+	list-style: none;
+	display: block;
+	height: 200px;
+	border-bottom: 1px solid gray;
+	text-align: left;
+}
+ul.conMenu > li > a {
+	text-decoration: none;
+	padding: 15px 0px 0px 0px;
+	display: block;
+	color: #008fcc;	
+}
+ul.conMenu > li > a:hover {
+	color: black;	
+}
+.buttonMore button{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #8dc63f;
+	color: #8dc63f;
+	margin-top: 10px;
+}
+.buttonMore button:hover{
+	color: white;
+	background-color: #8dc63f;
+}
+.signIn input{
+	background-color: #f2f2f2;
+	border: none;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.signUp input{
+	background-color: #f2f2f2;
+	border: none;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.formSignUp {
+	border: 2px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 360px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+.ha {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.cf {
+	width: 100%;
+	height: 200px;
+}
+.cf input{
+	width: 400px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.cf textarea {
+	width: 400px;
+	height: 100px;
+}
+.cf button{
+	width: 400px;
+	height: 35px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.halfleftcf {
+	width: 50%;
+	float: left;
+	height: 300px;
+} 
+.halfrightcf {
+	width: 50%;
+	float: right;
+	height: 300px;
+	text-align: right;
+}
+.formQA {
+	text-align: left;
+	font-size: 24px;
+} 
+.formQA input {
+	width: 400px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.formQA textarea {
+	width: 400px;
+	height: 100px;
+}
+.formQA button{
+	width: 400px;
+	height: 35px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.checkbox input{
+	text-align: right;
+}
+#navMenu .barBtn button{
+	display: none;
+	
+}
+.thua{
+	display: none;
+	height: 47px;
+}
+@media screen and (max-width: 1024px) {
+	.gioithieu{
+		font-size: calc(100%/1.1);
+		margin-bottom: 10px;
+	}
+	.gioithieu a {
+		font-size: calc(100% / 1.1);
+	}
+	.tintuc{
+		font-size: calc(100%/1.1);
+		margin-bottom: 10px;
+	}
+	.tintuc a {
+		font-size: calc(100% / 1.1);
+	}
+	*{
+		font-size: calc(100%/1.01);
+	}
+	#navMenu .barBtn button{
+		display: none;
+		
+	}
+}
+@media screen and (max-width: 640px) {
+	#container{
+		width: 98%;
+		
+	}
+	aside{
+		width: 100%;
+	}
+	aside .box1, .box2{
+		width: 98%;
+	}
+	article{
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	footer {
+		margin-top: 10px;
+	}
+	.search {
+		width: 100%;
+		margin-right: 1%;
+	}
+	.search input{
+		width: 80%;
+	}
+	.search1{
+		width: 96%;
+		margin-left: 1%;
+	}
+	.news{
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.news1{
+		width: 100%;
+	}
+	.news2{
+		width: 100%;
+	}
+	.gioithieu{
+		width: 48%;
+		margin-right: 1%;
+	}
+	.tintuc{
+		width: 48%;
+		margin-left: 1%;
+	}
+	#navMenu {
+		position: fixed;
+		top: 0;
+		
+		width: 98%;
+	}
+	
+	ul.dadMenu > li {
+		display: block;
+	}
+	#navMenu .barBtn button{
+		position: absolute;
+		left: 0;
+		display: block;
+		line-height: 47px;
+	}
+	.nom{
+		display: block;
+	}
+	.thua{
+		display: block;
+		width: 47px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.gioithieu{
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		
+	}
+	.tintuc{
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+}
